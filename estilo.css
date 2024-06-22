@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+/*.div-formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+ 
+    
+}
+*/
+
+.div-titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+
+}
+
+.div-titulo h1{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    height: calc(100vh-100px);
+    display: flex;
+    justify-content: center;
+
+}
+
+/* ESTILOS DEL FORMULARIO*/
+
+.contenedor .div-formulario{
+    width: 30%;
+    height: 250px;
+    margin:  15px 15px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+
+
+
+}
+.contenedor .div-formulario h2{
+    
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 2em;
+  color: black
+
+}
+
+.contenedor .div-formulario form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button{
+    width: 60%;
+    padding:10px 10px;
+    margin: 10px 10px;
+}
+
+/* ESTILOS LISTADOS*/
+
+.contenedor .div-listado{
+
+    width: 55%;
+    height: calc(100%-50px);
+    margin: 15px 15px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+.contenedor .div-listado h2 {
+
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2.1em;
+    color: black;
+
+}
+
+.contenedor .div-listado .div-empleados{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+    
+    
+
+
+}
+
+.contenedor .div-listado .div-empleados p{
+    
+    margin: 10px 0;
+    font-size: 1em;
+    color: aquamarine;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.btn-editar{
+background-color: green;
+}
+.btn-eliminar{
+background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
